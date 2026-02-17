@@ -1,0 +1,35 @@
+# Core Dependencies
+torch>=2.0.0
+torchvision
+torchaudio
+numpy
+Pillow
+
+# Audio Processing
+gTTS
+pydub
+librosa
+soundfile
+scipy
+
+# Utils
+tqdm
+requests
+filelock
+huggingface_hub
+accelerate
+transformers
+diffusers
+einops
+omegaconf
+imageio
+imageio-ffmpeg
+decord
+av
+moviepy
+
+# LongCat Specifics 
+# (Based on their repo, but simplified for inference)
+ninja
+psutil
+packaging

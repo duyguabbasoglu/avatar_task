@@ -1,0 +1,51 @@
+
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Env
+venv/
+env/
+ENV/
+.env
+
+# Pytest
+.pytest_cache/
+.coverage
+htmlcov/
+
+# MyPy
+.mypy_cache/
+
+# LongCat specific
+weights/
+outputs/
+*.mp4
+*.mp3
+!assets/avatar/turkish_noc.json
+!turkish_noc.mp3 # Maybe keep example? No, let's ignore generated media
+*.wav
+
+# IDE
+.idea/
+.vscode/
+.DS_Store
