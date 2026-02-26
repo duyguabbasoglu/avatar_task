@@ -1,0 +1,5 @@
+teknocan:
+  preparation: True
+  video_path: "/Users/dyliax/Desktop/musetalkdemo/avatar/teknocan_avatar.png"
+  bbox_shift: 0
+  audio_clips: {}

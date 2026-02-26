@@ -1,0 +1,4 @@
+task_0:
+  video_path: "/Users/dyliax/Desktop/musetalkdemo/avatar/new_avatar.png"
+  audio_path: "/Users/dyliax/Desktop/musetalkdemo/results/demo_audio.mp3"
+  bbox_shift: 0
