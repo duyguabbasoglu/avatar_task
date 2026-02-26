@@ -245,8 +245,12 @@ def build_ui():
         
         with gr.Row():
             with gr.Column(scale=1):
-                gr.Markdown("### 1. Sözcü / Asistan Görseli Yükle")
-                avatar_input = gr.Image(label="Avatar Seç", type="filepath", height=280)
+                gr.Markdown("### 1. Sözcü / Asistan Seçimi (El Kol Hareketli Video veya Fotoğraf)")
+                avatar_input = gr.File(
+                    label="Avatar Yükle (Statik Fotoğraf veya Vücut Hareketleri Olan Kısa Bir Video .mp4)", 
+                    type="filepath", 
+                    file_types=["image", "video"]
+                )
                 
                 gr.Markdown("### 2. Canlandırılacak Metin")
                 text_input = gr.Textbox(
