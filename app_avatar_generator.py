@@ -179,7 +179,7 @@ def build_ui():
     custom_css = """
     .gradio-container {
         font-family: 'Helvetica Neue', Arial, sans-serif;
-        background-color: #1e293b !important;
+        background-color: #111d73 !important;
     }
     .turkcell-header {
         display: flex;
@@ -212,7 +212,7 @@ def build_ui():
     }
     .primary-btn {
         background-color: #ffc900 !important;
-        color: #1e293b !important;
+        color: #111d73 !important;
         font-weight: bold !important;
         border: none !important;
         height: 45px;
@@ -237,7 +237,7 @@ def build_ui():
                 <img src="{logo_src}" alt="Turkcell Logo" style="height: 100px; margin-right: 20px;">
                 <div class="turkcell-header-content">
                     <h1 class="turkcell-title">Dijital Asistan Stüdyosu</h1>
-                    <p class="turkcell-subtitle">Müşteri deneyimini yapay zeka ile yeniden tanımlayın!<br/>Kurumsal metinlerinizi saniyeler içinde doğal dudak senkronizasyonlu videolara dönüştürün.</p>
+                    <p class="turkcell-subtitle">Kurumsal metinlerinizi saniyeler içinde doğal dudak senkronizasyonlu videolara dönüştürün.</p>
                 </div>
             </div>
             """
